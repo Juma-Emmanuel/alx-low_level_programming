@@ -2,7 +2,7 @@
 
 /**
  *main - Entry point
- *prints all single digit numbers of base 10 starting from 0 without printf function
+ *prints all single digit numbers of base 10 without printf
  * Return: Always 0 (Success)
  */
 int main(void)
