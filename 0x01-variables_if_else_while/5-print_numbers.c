@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	for (int q = 0; q<10; q++)
-	    printf("%d",q);
-        return 0;
+for (int q = 0; q < 10; q++)
+	printf("%d",q);
+return (0);
 }
