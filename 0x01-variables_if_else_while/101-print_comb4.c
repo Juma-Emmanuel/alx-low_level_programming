@@ -22,7 +22,6 @@ for (num1 = 0; num1 < 8; num1++)
 			putchar(' ');
 		}
 	}
-	
 }
 putchar('\n');
 return (0);
