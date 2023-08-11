@@ -2,9 +2,10 @@
 
 /**
  *main - Entry point
- *prints the lowercase alphabet in reverse 
+ *prints the lowercase alphabet in reverse
  * Return: Always 0 (Success)
- */
+ *
+ **/
 int main(void)
 {
 char ch;
