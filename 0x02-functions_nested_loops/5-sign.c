@@ -5,7 +5,7 @@
 * @n: The sign of the charcer
 * Return: Always 0.
 */
-int _islower(int c)
+int _islower(int n)
 {
 if (n > 0)
 {
