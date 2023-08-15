@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-** print_sign - Entry point
+** _islower - Entry point
 * @n: The sign of the charcer
 * Return: Always 0.
 */
