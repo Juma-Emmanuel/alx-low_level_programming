@@ -17,6 +17,7 @@ for (j = 48; j <= 50; j++)
 			for (m = 48; m <= 57; m++)
 			{
 				if (j >= 50 && k>= 52)
+				{
 					break;
 			                _putchar(j);
 					_putchar(k);
@@ -24,6 +25,7 @@ for (j = 48; j <= 50; j++)
 					_putchar(l);
 					_putchar(m);
 					_putchar('\n');
+				}
 			}
 		}
 	}
