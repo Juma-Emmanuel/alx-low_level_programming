@@ -2,10 +2,10 @@
 #include "main.h"
 /**
 **print_alphabet - Entry point
-*Prints 10m times the alphabet in lowercase.
+*Prints 10mtimes the alphabet in lowercase.
 * Return: Always 0.
 */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 int j;
 char ch;
