@@ -12,5 +12,5 @@ char ch;
 for (j = 0; j <= 10; j++)
         for (ch = 'a'; ch <= 'z'; ch++)
                 _putchar(ch);
-_putchar('\n');
+                _putchar('\n');
 }
