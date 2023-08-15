@@ -18,6 +18,7 @@ if (k < 0)
 	return (-k);
 }
 else
+{
 	_putchar(k + 48);
         return (k);
 }
