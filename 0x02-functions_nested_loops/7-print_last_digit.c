@@ -20,6 +20,6 @@ if (k < 0)
 else
 {
 	_putchar(k + 48);
-        return (k);
+	return (k);
 }
 }
