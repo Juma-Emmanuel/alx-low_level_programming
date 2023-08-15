@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
-** _islower - Entry point
+** print_sign - Entry point
 * @n: The sign of the charcer
 * Return: Always 0.
 */
-int _islower(int n)
+int print_sign(int n)
 {
 if (n > 0)
 {
