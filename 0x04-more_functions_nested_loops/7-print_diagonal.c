@@ -18,7 +18,7 @@ if (n > 0)
 		{
 			if (j == i)
 			{
-				_putchar(92);
+				_putchar('\\');
 			}
 			else
 			{
