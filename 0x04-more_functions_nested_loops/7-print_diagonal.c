@@ -2,6 +2,7 @@
 #include "main.h"
 /**
 **print_diagonal- Entry point
+*@n: number of \
 *draws a diagonal line on the terminal
 * Return: Always 0.
 */
