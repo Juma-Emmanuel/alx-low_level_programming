@@ -19,13 +19,13 @@ if (n > 0)
 			if (j == i)
 			{
 				_putchar('\\');
+				_putchar('\n');
 			}
 			else
 			{
 				_putchar(32);
 			}
 		}
-		_putchar('\n');
 	}
 }
 else
