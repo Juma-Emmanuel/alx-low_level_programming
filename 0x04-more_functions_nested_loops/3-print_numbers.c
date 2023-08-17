@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-/**print_numbers - Entry point
+/**
+*print_numbers - Entry point
 *prints the numbers, from 0 to 9
 * Return: Always 0.
 */
