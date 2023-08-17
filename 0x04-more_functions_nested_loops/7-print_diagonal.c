@@ -25,11 +25,11 @@ if (n > 0)
 				_putchar(32);
 			}
 		}
-		_putchar(10);
+		_putchar('\n');
 	}
 }
 else
 {
-	_putchar(10);
+	_putchar('\n');
 }
 }
