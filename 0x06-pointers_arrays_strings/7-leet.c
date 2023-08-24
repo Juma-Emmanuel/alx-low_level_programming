@@ -11,7 +11,7 @@ char *leet(char *str)
 	int i;
 	int size = strlen(str);
 
-	for (i = 0; i < size - 1; i++)
+	for (i = 0; i < size; i++)
 	{
 		if (str[i] == 'a' || str[i] == 'A')
 			str[i] = '4';
