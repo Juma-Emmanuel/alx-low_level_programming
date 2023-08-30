@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <string.h>
 
 /**
  *_puts_recursion - prints a string, to stdout
@@ -8,7 +8,7 @@
  */
 void _puts_recursion(char *s)
 {
-	int l = 0;
+	int q = 0;
 	int size = strlen(s);
 
 	for (q = 0; q < size; q++)
