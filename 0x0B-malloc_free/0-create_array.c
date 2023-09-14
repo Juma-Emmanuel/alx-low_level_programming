@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
   if (size == 0 || str == NULL)
     return (NULL);
 
-  for (q = 0; q < sqze; q++)
+  for (q = 0; q < size; q++)
     str[q] = c;
   return (str);
 }
