@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-#include <stdio.h>
+
 /**
  *print_name - prints a name
  *@name: starting address of memory to be filled
