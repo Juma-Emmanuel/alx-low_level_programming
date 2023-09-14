@@ -1,27 +1,42 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 /**
- * _strdup - duplicate to new memory space location
- * @str: char
- * Return: 0
+ * str_concat - get ends of input and add together for size
+ * @s1: input one to concat
+ * @s2: input two to concat
+ * Return: concat of s1 and s2
  */
-char *_strdup(char *str)
+char *str_concat(char *s1, char *s2)
 {
-	char *aaa;
-	int q, j = 0;
+	char *conct;
+	int i, ci;
 
-	if (str == NULL)
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	i = ci = 0;
+	while (s1[i] != '\0')
+		i++;
+	while (s2[ci] != '\0')
+		ci++;
+	conct = malloc(sizeof(char) * (i + ci + 1));
+
+	if (conct == NULL)
 		return (NULL);
-	q = 0;
-	while (str[q] != '\0')
-		j++;
+	i = ci = 0;
+	while (s1[i] != '\0')
+	{
+		conct[i] = s1[i];
+		i++;
+	}
 
-	aaa = malloc(sizeof(char) * (q + 1));
-
-	if (aaa == NULL)
-		return (NULL);
-
-	for (j = 0; str[j]; j++)
-		aaa[j] = str[j];	return (aaa);
+	while (s2[ci] != '\0')
+	{
+		conct[i] = s2[ci];
+		i++, ci++;
+	}
+	conct[i] = '\0';
+	return (conct);
 }
